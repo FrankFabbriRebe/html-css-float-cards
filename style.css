@@ -31,7 +31,7 @@ header  {
 
 /* prima riga cards */
 .row    {
-    width: 80%;
+    width: 90%;
     margin-top: 30px;
     margin-right: auto;
     margin-left: auto;
@@ -46,10 +46,15 @@ header  {
 .col    {
     float: left;
     width: calc(100% / 3);
-    background-color: black;
+    padding: 0 5px;
 }
 
 /* stile card */
+.card   {
+    background-color: black;
+    height: 100%;
+}
+
 img {
     float: left;
 }
@@ -63,5 +68,5 @@ img {
 .details    {
     color: white;
     margin-top: 10px;
-    margin-bottom: 10px;
+    
 }
