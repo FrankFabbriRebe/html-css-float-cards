@@ -76,3 +76,8 @@ h2  {
 span    {
     color: lightblue;
 }
+
+.details    {
+    height: 100%;
+    color: white;
+}
