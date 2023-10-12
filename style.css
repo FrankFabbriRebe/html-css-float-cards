@@ -43,9 +43,23 @@ header  {
 .col    {
     float: left;
     width: calc(100% / 3);
-    /* debug rules 
-    background-color: aqua;
-    border: solid 1px black;
-    height: 200px;
-    */
+    background-color: black;
+    padding-right: 2px;
+}
+
+/* stile card */
+img {
+    float: left;
+}
+
+img::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.details    {
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
