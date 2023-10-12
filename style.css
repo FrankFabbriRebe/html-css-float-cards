@@ -68,5 +68,8 @@ img {
 .card    {
     color: white;
     margin-top: 10px;
-    
+}
+
+span    {
+    color: lightblue;
 }
