@@ -53,6 +53,7 @@ header  {
 .card   {
     background-color: black;
     height: 200px;
+    color: white;
 }
 
 img {
@@ -71,9 +72,4 @@ h2  {
 
 span    {
     color: lightblue;
-}
-
-.details    {
-    height: 100%;
-    color: white;
 }
