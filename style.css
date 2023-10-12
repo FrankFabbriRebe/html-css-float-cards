@@ -25,3 +25,27 @@ header  {
 .intro  {
     text-align: center;
 }
+
+/* prima riga cards */
+.row    {
+    width: 80%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col    {
+    float: left;
+    width: calc(100% / 3);
+    /* debug rules 
+    background-color: aqua;
+    border: solid 1px black;
+    height: 200px;
+    */
+}
