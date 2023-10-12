@@ -52,7 +52,7 @@ header  {
 /* stile card */
 .card   {
     background-color: black;
-    height: 100%;
+    height: 200px;
 }
 
 img {
@@ -67,7 +67,6 @@ img {
 
 .card    {
     color: white;
-    margin-top: 10px;
 }
 
 h2  {
